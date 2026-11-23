@@ -1,0 +1,12 @@
+
+# Исключаем всё
+*
+
+# Разрешаем Dockerfile
+!Dockerfile
+
+# Разрешаем папку conf
+!conf/
+
+# Из папки conf разрешаем только Docker-конфиг
+!conf/nginx.docker.conf
